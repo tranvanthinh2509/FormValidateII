@@ -1,0 +1,79 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html {
+    font-family: Arial, Helvetica, sans-serif;
+}
+body {
+    height: 100vh;
+    background-color: #efecec;
+    display: flex;
+    justify-content: center;
+}
+.main {
+    position: fixed;
+    top: 50px;
+    max-width: 500px;
+    width:389px;
+    min-height: 509px;
+    padding: 40px 20px;
+    box-shadow: 0 0 4px 4px #ccc;
+    margin: auto;
+    background-color: #fff;
+}
+.header {
+    text-align: center;
+}
+.title {
+    font-size: 24px;
+    font-weight: 600;
+    color: #000;
+}
+.msg {
+    font-size: 18px;
+    font-weight: 300;
+    opacity: 0.8;
+    margin: 20px 0;
+}
+.msg i {
+    color: red;
+}
+.form-nhap {
+    margin-top: 20px;
+}
+.item {
+    font-size: 15px;
+    font-weight: 600;
+}
+input {
+    margin-top: 8px;
+    margin-bottom: 4px;
+    height: 35px;
+    width: 100%;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    padding: 0 10px;
+}
+.footer {
+    margin-top: 20px;
+    height: 40px;
+    width: 100%;
+    color: #fff;
+    background-color: #61d450;
+    font-size: 18px;
+    border-radius: 10px;
+    border: none;
+}
+.footer:hover {
+    opacity: 0.8;
+    cursor: pointer;
+}
+.form-msg {
+    font-size: 13px;
+    
+}
+.invalid .form-msg {
+    color: red;
+}
